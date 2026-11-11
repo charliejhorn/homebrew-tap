@@ -9,8 +9,9 @@ class ObsidianBibSync < Formula
   desc "Sync Obsidian paper notes to BibTeX files across your machine"
   homepage "https://github.com/charliejhorn/obsidian-bib-sync"
   url "https://github.com/charliejhorn/obsidian-bib-sync/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_TARBALL_SHA256"
+  sha256 "1cd6cbe163eb9618b0ce7444fd64335375f13913e46dc180447efbe0b1ae777b"
   license "MIT"
+  head "https://github.com/charliejhorn/obsidian-bib-sync.git", branch: "main"
 
   depends_on "python@3.13"
 
